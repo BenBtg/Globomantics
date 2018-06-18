@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="268px" height="269px" viewBox="0 0 268 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M125,250 C55.9644063,250 0,194.035594 0,125 C0,55.9644063 55.9644063,0 125,0 C194.035594,0 250,55.9644063 250,125 C250,194.035594 194.035594,250 125,250 Z M125.5,214 C174.3772,214 214,174.3772 214,125.5 C214,76.6227996 174.3772,37 125.5,37 C76.6227996,37 37,76.6227996 37,125.5 C37,174.3772 76.6227996,214 125.5,214 Z" id="path-1"></path>
+        <filter x="-2.8%" y="-2.4%" width="108.0%" height="108.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M125,0 C185.822421,0 236.498807,43.4403356 247.695885,100.987732 L223.150606,105.758851 C214.180649,59.7365005 173.646897,25 125,25 L125,3.55271368e-15 Z" id="path-3"></path>
+        <filter x="-5.6%" y="-4.8%" width="116.0%" height="116.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="126 5 134 32 118 32"></polygon>
+        <filter x="-29.2%" y="-21.3%" width="207.3%" height="167.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="4" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-screen" transform="translate(-57.000000, -174.000000)">
+            <g id="Clock" transform="translate(63.000000, 178.000000)">
+                <g>
+                    <g id="Combined-Shape-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#4A90E2" stroke-width="4" fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use stroke="#DDFFF7" stroke-width="4" fill="#DDFFF7" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Hand">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use stroke="#979797" stroke-width="1" fill="#440080" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <path d="M125,31 L125,0.5 M172,43.593612 L187.25,17.1798372 M206.406388,78 L232.820163,62.75 M219,125 L249.5,125 M206.406388,172 L232.820163,187.25 M172,206.406388 L187.25,232.820163 M125,219 L125,249.5 M78,206.406388 L62.75,232.820163 M43.593612,172 L17.1798372,187.25 M31,125 L0.5,125 M43.593612,78 L17.1798372,62.75 M78,43.593612 L62.75,17.1798372" id="FaceMarks" stroke="#440080" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
